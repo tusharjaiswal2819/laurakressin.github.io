@@ -1,0 +1,58 @@
+.container {
+	padding:30px;
+	margin: 80px;
+	width: 800px;
+	background-color: #D6F5D6;
+	color: #3D1F00;
+	font-family: 'Muli';
+}
+
+#pic {
+	float: right;
+}
+
+
+.content-title {
+	font-family: 'Poiret One', bold;
+	font-size: 70px;
+	color: mediumvioletred;
+	font-weight: bold;
+}
+
+.content-experienceheader {
+	font-family: 'Poiret One';
+	font-size: 40px;
+	color: #291400;
+	font-weight: bold;
+	border-bottom: 1px solid #291400;
+	margin-top: 10px;
+}
+
+h3 {
+	font-size: 22px;	
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+
+h4 {
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+
+ul {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.block-content {
+	font-size: 16px;
+}
+
+br {
+	content: " ";
+	display: block;
+	margin: 5px;
+}
+
+

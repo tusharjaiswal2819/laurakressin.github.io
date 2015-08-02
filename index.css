@@ -1,8 +1,16 @@
+body {
+  background-color: #FFFAF0;
+  background-size: cover;
+  background: url(backgroundcanvas.jpg);
+}
 .container {
 	padding:30px;
-	margin: 80px;
+	margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: auto;
+  margin-left: auto;
 	width: 800px;
-	background-color: #D6F5D6;
+	background-color: #FFF2F7;
 	color: #3D1F00;
 	font-family: 'Muli';
 }
@@ -19,7 +27,7 @@
 	font-weight: bold;
 }
 
-.content-experienceheader {
+h1 {
 	font-family: 'Poiret One';
 	font-size: 40px;
 	color: #291400;
@@ -28,8 +36,21 @@
 	margin-top: 10px;
 }
 
+.content-experienceheader.work {
+  width: 577px;
+}
+
+.content-contact > p {
+  margin: 0px;
+  padding: 2px;
+}
+
+.workexperience {
+  width: 577px;
+}
+
 h3 {
-	font-size: 22px;	
+	font-size: 22px;
 	margin-bottom: 5px;
 	margin-top: 15px;
 }
@@ -37,12 +58,16 @@ h3 {
 h4 {
 	font-size: 18px;
 	margin-top: 0px;
-	margin-bottom: 0px;	
+	margin-bottom: 0px;
 }
 
 ul {
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+
+li {
+  padding-bottom: 6px;
 }
 
 .block-content {
@@ -55,4 +80,38 @@ br {
 	margin: 5px;
 }
 
+.contact{
+  margin-left: 0px;
+  font-size: 30px;
+}
 
+
+textarea {
+  display: block;
+  width: 500px;
+  height: 100px;
+  margin: 0 auto;
+
+}
+
+label {
+  display: block;
+  font-size: 17px;
+  font-family: 'Muli';
+  margin: 0 150px;
+}
+
+input {
+  display: block;
+  width: 500px;
+  font-size: 15px;
+  font-family: 'Muli';
+  margin: 0 auto;
+
+}
+
+input[type="submit"] {
+  width: 70px;
+  margin: 10px 150px;
+
+}

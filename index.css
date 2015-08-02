@@ -3,6 +3,7 @@ body {
   background-size: cover;
   background: url(backgroundcanvas.jpg);
 }
+
 .container {
 	padding:30px;
 	margin-top: 80px;
@@ -20,25 +21,26 @@ body {
 }
 
 
-.content-title {
+h1 {
 	font-family: 'Poiret One', bold;
 	font-size: 70px;
 	color: mediumvioletred;
 	font-weight: bold;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-h1 {
+h2 {
 	font-family: 'Poiret One';
 	font-size: 40px;
 	color: #291400;
 	font-weight: bold;
 	border-bottom: 1px solid #291400;
 	margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.content-experienceheader.work {
-  width: 577px;
-}
 
 .content-contact > p {
   margin: 0px;
@@ -68,11 +70,9 @@ ul {
 
 li {
   padding-bottom: 6px;
+  font-size: 16px;
 }
 
-.block-content {
-	font-size: 16px;
-}
 
 br {
 	content: " ";
@@ -91,7 +91,6 @@ textarea {
   width: 500px;
   height: 100px;
   margin: 0 auto;
-
 }
 
 label {
@@ -99,6 +98,7 @@ label {
   font-size: 17px;
   font-family: 'Muli';
   margin: 0 150px;
+  color: #3D1F00;
 }
 
 input {
@@ -107,11 +107,11 @@ input {
   font-size: 15px;
   font-family: 'Muli';
   margin: 0 auto;
-
 }
 
 input[type="submit"] {
   width: 70px;
   margin: 10px 150px;
-
 }
+
+
